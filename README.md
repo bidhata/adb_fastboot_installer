@@ -45,9 +45,17 @@ A simple, automated tool to install and maintain the latest Android Platform Too
 
 ## Installation
 
+### Quick Install (One-Line Command)
+Run this command in PowerShell (Admin):
+```powershell
+irm https://raw.githubusercontent.com/bidhata/adb_fastboot_installer/main/Install-AdbTool.ps1 | iex
+```
+
 1.  Open PowerShell as **Administrator**.
 2.  Navigate to the directory containing the script.
 3.  Run the installation command:
+
+### Manual Installation
 
     ```powershell
     .\Install-AdbTool.ps1 -Install
@@ -85,5 +93,6 @@ To remove the tool:
 
 ## Author
 Krishnendu Paul (@bidhata)
+
 
 
