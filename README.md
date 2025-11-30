@@ -57,9 +57,9 @@ irm https://raw.githubusercontent.com/bidhata/adb_fastboot_installer/main/Instal
 
 ### Manual Installation
 
-    ```powershell
-    .\Install-AdbTool.ps1 -Install
-    ```
+```powershell
+ .\Install-AdbTool.ps1 -Install
+```
 
 The script will:
 *   Create the installation directory at `C:\AdbTool`.
@@ -93,6 +93,7 @@ To remove the tool:
 
 ## Author
 Krishnendu Paul (@bidhata)
+
 
 
 
